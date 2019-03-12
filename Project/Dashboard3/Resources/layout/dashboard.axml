@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:background="@android:color/holo_blue_light">
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/scrollView1">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/linearLayout1">
+			<GridLayout
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/gridLayout1"
+				android:background="@android:color/background_light"
+				android:layout_marginHorizontal="15px"
+				android:paddingHorizontal="20px"
+				android:columnCount="3"
+				android:paddingVertical="20px"
+				android:layout_marginBottom="10px"
+				android:layout_marginTop="30px"
+				android:useDefaultMargins="false">
+				<ImageView
+					android:src="@drawable/fsd"
+					android:id="@+id/imageView1"
+					android:layout_row="0"
+					android:layout_column="0"
+					android:layout_columnWeight="1"
+					android:layout_rowWeight="1"
+					android:layout_gravity="center" />
+				<TextView
+					android:text="Welcome, Ahmed"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:id="@+id/textView1"
+					android:textColor="@android:color/background_dark"
+					android:layout_row="0"
+					android:layout_column="1"
+					android:layout_columnSpan="2"
+					android:layout_columnWeight="1"
+					android:layout_rowWeight="1"
+					android:textAlignment="center"
+					android:gravity="center"
+					android:textSize="55px" 
+					
+					
+				
+				/>
+			</GridLayout>
+			<GridLayout
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/courses_grid"
+				android:background="@android:color/background_light"
+				android:layout_marginHorizontal="15px"
+				android:columnCount="3"
+				android:layout_marginBottom="10px"
+				android:layout_marginTop="30px"
+				android:useDefaultMargins="false">
+				<TextView
+					android:text="COURSES"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:id="@+id/textView_courses"
+					android:layout_column="0"
+					android:layout_row="0"
+					android:layout_columnSpan="3"
+					android:textColor="@android:color/black"
+					android:layout_width="match_parent"
+					android:textAlignment="center"
+					android:background="#ffd1c4e9"
+					android:layout_marginBottom="10px" />
+				<Button
+					android:text="Add"
+					android:id="@+id/btn_AddCourse"
+					android:layout_column="0"
+					android:layout_row="1"
+					android:drawableTop="@drawable/slides"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+					
+				/>
+				<Button
+					android:text="DELETE"
+					android:id="@+id/btn_DeleteCourse"
+					android:layout_column="1"
+					android:layout_row="1"
+					android:drawableTop="@drawable/grades"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+
+				/>
+				<Button
+					android:text="edit"
+					android:id="@+id/btn_EditCourse"
+					android:layout_column="2"
+					android:layout_row="1"
+					android:drawableTop="@drawable/questions"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+				/>
+				<Button
+					android:text="ASSIGN TA"
+					android:id="@+id/btn_AssignTeacher"
+					android:layout_column="0"
+					android:layout_row="2"
+					android:drawableTop="@drawable/attend2"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+/>
+				<Button
+					android:text="SHOW ALL"
+					android:id="@+id/btn_ShowALLCourses"
+					android:layout_column="1"
+					android:layout_row="2"
+					android:drawableTop="@drawable/assignments"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+
+				/>
+			</GridLayout>
+
+
+
+			<GridLayout
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/Account_grid"
+				android:background="@android:color/background_light"
+				android:layout_marginHorizontal="15px"
+				android:columnCount="3"
+				android:layout_marginBottom="10px"
+				android:layout_marginTop="30px"
+				android:useDefaultMargins="false">
+				<TextView
+					android:text="Account"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:id="@+id/textView_Account"
+					android:layout_column="0"
+					android:layout_row="0"
+					android:layout_columnSpan="3"
+					android:textColor="@android:color/black"
+					android:layout_width="match_parent"
+					android:textAlignment="center"
+					android:background="#ffd1c4e9"
+					android:layout_marginBottom="10px" />
+				<Button
+					android:text="password"
+					android:id="@+id/button6"
+					android:layout_column="0"
+					android:layout_row="1"
+					android:drawableTop="@drawable/pass"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+					
+				/>
+				<Button
+					android:text="picture"
+					android:id="@+id/button7"
+					android:layout_column="1"
+					android:layout_row="1"
+					android:drawableTop="@drawable/photo"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+
+				/>
+				<Button
+					android:text="about"
+					android:id="@+id/button8"
+					android:layout_column="2"
+					android:layout_row="1"
+					android:drawableTop="@drawable/about"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+
+				/>
+			</GridLayout>
+
+			<!--
+			******************
+			USERS CONTROLLERS
+			******************
+			-->
+			<GridLayout
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/users_grid"
+				android:background="@android:color/background_light"
+				android:layout_marginHorizontal="15px"
+				android:columnCount="3"
+				android:layout_marginBottom="10px"
+				android:layout_marginTop="30px"
+				android:useDefaultMargins="false">
+				<TextView
+					android:text="Users"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:id="@+id/textView_users"
+					android:layout_column="0"
+					android:layout_row="0"
+					android:layout_columnSpan="3"
+					android:textColor="@android:color/black"
+					android:layout_width="match_parent"
+					android:textAlignment="center"
+					android:background="#ffd1c4e9"
+					android:layout_marginBottom="10px" />
+				<Button
+					android:text="Add"
+					android:id="@+id/btn_AddAccount"
+					android:layout_column="0"
+					android:layout_row="1"
+					android:drawableTop="@drawable/slides"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+					
+				/>
+				<Button
+					android:text="DELETE"
+					android:id="@+id/btn_DeleteAccount"
+					android:layout_column="1"
+					android:layout_row="1"
+					android:drawableTop="@drawable/grades"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+
+				/>
+				<Button
+					android:text="edit"
+					android:id="@+id/btn_EditAccount"
+					android:layout_column="2"
+					android:layout_row="1"
+					android:drawableTop="@drawable/questions"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px" 
+				/>
+				<Button
+					android:text="SHOW ALL"
+					android:id="@+id/btn_ShowAllAccounts"
+					android:layout_column="0"
+					android:layout_row="2"
+					android:drawableTop="@drawable/assignments"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px"/>
+
+				<Button
+					android:text="Deactive"
+					android:id="@+id/btn_DeactiveAccount"
+					android:layout_column="1"
+					android:layout_row="2"
+					android:drawableTop="@drawable/assignments"
+					android:textColor="@android:color/background_dark"
+					android:background="@android:color/background_light"
+					android:layout_margin="5px"/>
+			</GridLayout>
+		</LinearLayout>
+
+	</ScrollView>
+
+
+</LinearLayout>

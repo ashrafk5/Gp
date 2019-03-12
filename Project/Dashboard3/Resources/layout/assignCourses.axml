@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:hapticFeedbackEnabled="false"
+		android:background="#ff7d8ed7"
+		android:padding="5px">
+		<ImageView
+			android:layout_width="105.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/imageView1"
+			android:src="@drawable/search" />
+		<TextView
+			android:text="ASSIGN COURSES"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="246.5dp"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1"
+			android:textAlignment="center"
+			android:textSize="60px"
+			android:paddingVertical="10px"
+			android:layout_marginRight="26.0dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2"
+		android:padding="20px">
+		<TextView
+			android:text="SELECT TEACHER"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView2"
+			android:padding="5px" />
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/spinner_teacher"
+			android:paddingVertical="20px"
+			android:minHeight="100px" />
+		<TextView
+			android:text="SELECT COURSE"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView3"
+			android:padding="5px" />
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/spinner_course"
+			android:paddingVertical="20px"
+			android:minHeight="100px" />
+		<Button
+			android:text="assign"
+			android:layout_width="135.5dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_assign" />
+	</LinearLayout>
+	
+</LinearLayout>

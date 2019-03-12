@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:hapticFeedbackEnabled="false"
+		android:background="#ff7d8ed7"
+		android:padding="5px">
+		<ImageView
+			android:layout_width="105.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/imageView1"
+			 />
+		<TextView
+			android:text="Quizzes"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="246.5dp"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1"
+			android:textAlignment="center"
+			android:textSize="80px"
+			android:paddingVertical="10px" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/linearLayout2"
+		android:paddingVertical="30px"
+		android:paddingHorizontal="40px"
+		android:visibility="visible">
+		<TextView
+			android:text="Quiz lecture"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView2" />
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/spinner1"
+			android:minHeight="100px"
+			android:visibility="visible" />
+		<TextView
+			android:text="No. of Questions"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView3" />
+		<EditText
+			android:inputType="numberDecimal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/editText1"
+			android:minHeight="100px"
+			android:visibility="visible" />
+		<TextView
+			android:text="Type of Questions"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView4" />
+		<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/radioGroup1"
+			android:textAlignment="center">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="True or False"
+				android:id="@+id/radioButton2" />
+			<RadioButton
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="multiple choices"
+				android:id="@+id/radioButton1" />
+		</RadioGroup>
+		<Button
+			android:text="NEXT"
+			android:layout_width="95.5dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/button1"
+			android:enabled="true" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/background_light">
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/scrollView1">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout7">
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1">
+				<LinearLayout
+					android:orientation="horizontal"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="fill_parent"
+					android:id="@+id/linearLayout3"
+					android:background="@android:color/holo_blue_dark"
+					android:padding="8pt"
+					android:layout_height="wrap_content">
+					<TextView
+						android:text="Divide Course Grades"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/textView1"
+						android:textColor="@android:color/background_light"
+						android:background="@android:color/holo_blue_dark"
+						android:textSize="20px" />
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="horizontal"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayout4"
+					android:layout_marginTop="25pt"
+					android:layout_marginLeft="5pt">
+					<TextView
+						android:text="classwork"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/textView2"
+						android:layout_marginTop="15pt"
+						android:layout_marginRight="5pt"
+						android:textColor="@android:color/background_dark"
+						android:textSize="22px" />
+					<LinearLayout
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/linearLayout6">
+						<TextView
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/textView2"
+							android:textColor="@android:color/holo_blue_dark"
+							android:text="   Midterm     :" />
+						<TextView
+							android:text="Attendence  :"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/textView2"
+							android:layout_marginTop="20pt"
+							android:textColor="@android:color/holo_blue_dark" />
+					</LinearLayout>
+					<LinearLayout
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:id="@+id/linearLayout5"
+						android:layout_marginLeft="7pt"
+						android:layout_marginRight="7pt">
+						<EditText
+							android:inputType="number"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/txt_class_mid"
+							android:layout_marginLeft="7pt" />
+						<EditText
+							android:inputType="number"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/txt_class_attend"
+							android:layout_marginLeft="7pt" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="horizontal"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayout4"
+					android:layout_marginTop="25pt"
+					android:layout_marginLeft="5pt">
+					<TextView
+						android:text="Practical"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/textView2"
+						android:layout_marginTop="15pt"
+						android:layout_marginRight="5pt"
+						android:textColor="@android:color/background_dark"
+						android:textSize="22px"
+						android:layout_marginLeft="4pt" />
+					<LinearLayout
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/linearLayout6">
+						<TextView
+							android:text="    Project  :"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/textView2"
+							android:textColor="@android:color/holo_blue_dark"
+							android:layout_marginLeft="12pt" />
+						<TextView
+							android:text="     Quizes  :"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/textView2"
+							android:layout_marginTop="20pt"
+							android:textColor="@android:color/holo_blue_dark"
+							android:layout_marginLeft="13pt" />
+					</LinearLayout>
+					<LinearLayout
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:id="@+id/linearLayout5"
+						android:layout_marginLeft="7pt"
+						android:layout_marginRight="7pt">
+						<EditText
+							android:inputType="number"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/txt_prac_proj"
+							android:layout_marginLeft="7pt" />
+						<EditText
+							android:inputType="number"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/txt_prac_quiz"
+							android:layout_marginLeft="7pt" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<Button
+				android:text="Submit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/btn_submit"
+				android:layout_marginTop="25pt"
+				android:layout_marginLeft="10pt"
+				android:layout_marginRight="10pt"
+				android:background="@drawable/bluebutton"
+				android:textSize="20px" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

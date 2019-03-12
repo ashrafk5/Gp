@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:hapticFeedbackEnabled="false"
+		android:background="#ff7d8ed7"
+		android:paddingTop="12px"
+		android:paddingLeft="20px">
+		<ImageView
+			android:layout_width="105.0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/imageView1"
+			android:src="@drawable/add"
+			android:layout_marginRight="0.0dp"
+			android:layout_marginLeft="0.0dp" />
+		<TextView
+			android:text="ADD NEW COURSE"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="246.5dp"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1"
+			android:textAlignment="center"
+			android:textSize="50px"
+			android:paddingVertical="20px"
+			android:layout_marginRight="26.0dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2"
+		android:paddingHorizontal="20px"
+		android:paddingVertical="10px">
+		<TextView
+			android:text="COURSE NAME"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView2" />
+		<EditText
+			android:inputType="textPersonName"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/edittext_coursename" />
+		<TextView
+			android:text="COURSE CODE"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView3" />
+		<EditText
+			android:inputType="textPersonName"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/editText_coursecode" />
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView3"
+			android:text="DESCRIPTION (if exist)" />
+		<EditText
+			android:inputType="textMultiLine"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/editText_description"
+			android:height="100px" />
+		<Button
+			android:text="add"
+			android:layout_width="111.0dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn_add" />
+	</LinearLayout>
+</LinearLayout>
